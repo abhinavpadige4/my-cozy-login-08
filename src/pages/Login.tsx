@@ -56,7 +56,7 @@ const Login = ({ onLogin }: LoginProps) => {
               />
             </div>
             {error && <p className="text-sm text-destructive">{error}</p>}
-            <Button type="submit" className="w-full">
+            <Button id="loginBtn" type="submit" className="w-full">
               Sign In
             </Button>
           </form>
